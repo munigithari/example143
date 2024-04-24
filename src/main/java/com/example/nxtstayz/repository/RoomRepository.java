@@ -13,7 +13,7 @@ import java.util.*;
 import com.example.nxtstayz.model.*;
 
 public interface RoomRepository {
-    List<Room> getRooms();
+    ArrayList<Room> getRooms();
 
     Room getRoomById(int roomId);
 

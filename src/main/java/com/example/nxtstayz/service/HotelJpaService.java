@@ -30,7 +30,7 @@ public class HotelJpaService implements HotelRepository {
     private HotelJpaRepository hotelrepo;
 
     @Override
-    public List<Hotel> getHotels() {
+    public ArrayList<Hotel> getHotels() {
         List<Hotel> list = hotelrepo.findAll();
         ArrayList<Hotel> arr = new ArrayList<>(list);
         return arr;

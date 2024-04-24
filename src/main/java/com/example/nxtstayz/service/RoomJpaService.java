@@ -35,7 +35,7 @@ public class RoomJpaService implements RoomRepository {
     private RoomJpaRepository roomrepo;
 
     @Override
-    public List<Room> getRooms() {
+    public ArrayList<Room> getRooms() {
         List<Room> list = roomrepo.findAll();
         ArrayList<Room> arr = new ArrayList<>(list);
         return arr;

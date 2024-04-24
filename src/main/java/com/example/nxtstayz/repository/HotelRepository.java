@@ -13,7 +13,7 @@ import java.util.*;
 import com.example.nxtstayz.model.*;
 
 public interface HotelRepository {
-    List<Hotel> getHotels();
+    ArrayList<Hotel> getHotels();
 
     Hotel getHotelById(int hotelId);
 
